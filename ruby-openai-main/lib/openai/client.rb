@@ -63,7 +63,7 @@ module OpenAI
         uri(path: path),
         headers: headers,
         body: parameters&.to_json,
-        timeout: 120
+        timeout: 240
       )
     end
 
